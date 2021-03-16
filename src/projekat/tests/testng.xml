@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="Testovi bez Excela">
+        <classes>
+            <class name="projekat.tests.ContactUsTest" />
+            <class name="projekat.tests.HaljineTest" />
+            <class name="projekat.tests.IkoniceTest" />
+            <class name="projekat.tests.SearchTest" />
+            <class name="projekat.tests.SummerDressesTest" />
+        </classes>
+    </test>
+
+    <test name="Excela testovi">
+        <classes>
+            <class name="projekat.tests.ExcelDataReadTest" />
+            <class name="projekat.tests.PitanjaIzExcelaTest" />
+        </classes>
+    </test>
+</suite>
